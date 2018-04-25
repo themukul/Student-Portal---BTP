@@ -5,18 +5,23 @@ body{
 .nav-wrapper{
   background-color: white;
   color: #5a5a5a !important;
+  padding-left: 10px;
 }
+
 
 nav a{
   color: #5a5a5a !important;
 }
 
 .cards-parent{
-  margin-top: 50px;
+  margin-top: -750px;
+  padding-left: 200px;
+
+
 }
 
 .card-panel{
-/*   width: 350px; */
+/* width: 350px; */
   height: 250px;
 /*   display: inline-block; */
 }
@@ -100,4 +105,42 @@ nav a{
   font: normal 15px 'Roboto', sans-serif;
   color: #a4a4a4;
   margin-top: 10px;
+}
+
+    header, main, footer {
+      padding-left: 300px;
+    }
+
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }
+        
+.side-nav li{
+  list-style-type: block;
+    margin-top: 30px;
+    margin: 20px;
+    color: #000000;
+    margin-left: 60px;
+    width: 25%;
+    height: 100%;
+    padding: 20px;
+    font:normal 14px 'Roboto', sans-serif; /* Full height */
+     /* Make it stick, even on scroll */
+    overflow: hidden; /* Enable scrolling if the sidenav has too much content */
+}
+.side-nav a{
+  color: #4a4a4a;
+  padding: 15px;
+  /*position: fixed;*/
+  margin-top: 0px;
+}
+.side-nav i{
+  padding: 5px;
+}
+.img-resp {
+    display: inline-block;
+    max-width: 20%;
+    height: auto;
 }
