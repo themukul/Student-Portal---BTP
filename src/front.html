@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="front.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+
+        <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="Profile/profile.html">Profile</a></li>
+      <li><a href="#!">two</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">three</a></li>
+    </ul>
+    <nav class="z-depth-3">
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">Logo</a>
+<!--         <form>
+          <div class="input-field">
+            <input id="search" type="search" required>
+            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+            <i class="material-icons">close</i>
+          </div>
+        </form> -->
+        <ul class="right hide-on-med-and-down">
+          <!-- Dropdown Trigger -->
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="row">
+      <div class="col l10">
+        <div class="row">
+          <div class="col l4">
+             <div class="card-panel z-depth-3">
+               <div class="card-head">
+                 <i class="material-icons schedule">schedule</i>
+                 <div class="card-notif"></div>
+               </div>
+               <div class="card-title">
+                 Course Schedule
+               </div>
+               <div class="card-description">
+                  Time table and course schedule.
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="front.js"></script>
+  </body>
+</html>
